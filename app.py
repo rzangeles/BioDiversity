@@ -65,23 +65,6 @@ def metadata(sample):
 
         if (search_item == new_sample):
 
-            # #convert integer values to string
-
-            # item['AGE'] = str(item['AGE'])
-            # item['SAMPLEID'] = str(item['SAMPLEID'])
-            # item['WFREQ'] = str(item['WFREQ'])
-            # item["COUNTRY012"] = str(item["COUNTRY012"])
-            # item["COUNTRY1319"] = str(item["COUNTRY1319"])
-            # item["DOG"] = str(item["DOG"])
-            # item["EVENT"] = str(item["EVENT"])
-            # item["IMPSURFACE013"] = str(item["IMPSURFACE013"])
-            # item["NPP013"] = str(item["NPP013"])
-            # item["NPP1319"] = str(item["NPP1319"])
-            # item["MMAXTEMP013"] = str(item["MMAXTEMP013"])
-            # item["MMAXTEMP1319"] = str(item["MMAXTEMP1319"])
-            # item["PFC1319"] = str(item["PFC1319"])
-            # item["PFC013"] = str(item["PFC013"])
-            # item["NPP013"] = str(item["NPP013"])
 
             return jsonify(item)
     
