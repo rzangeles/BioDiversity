@@ -1,0 +1,20 @@
+/* Style CSS fieldset */
+
+#main_table {
+
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+#main_header {
+
+    font-size: 50px;
+}
+
+div.container {
+
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
